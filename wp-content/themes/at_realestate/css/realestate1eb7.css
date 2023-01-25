@@ -1,0 +1,105 @@
+/*** Search Box ***/
+.search-box {
+	position: relative;
+	z-index: 2;
+	bottom: -115px;
+}
+.search-box .elementor-inner-column {
+	width: 100%!important;
+}
+.es-search__wrapper {
+    background: #fff!important;
+	max-width: 1302px;
+	margin: 0 auto;
+}
+body .es-search__wrapper.es-search__wrapper--horizontal,
+body .es-search__wrapper.es-search__wrapper--horizontal .widget-title{
+	padding: 10px 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+body .es-search__wrapper.es-search__wrapper--horizontal form .es-search__field {
+	padding: 0;
+}
+body .es-search__wrapper.es-search__wrapper--horizontal form .es-search__buttons .es-button__wrap input,
+body .es-search__wrapper .es-search__field .es-field__wrap .es-field__range input,
+body .es-search__wrapper .es-search__field.es-search__field--address input {
+	border-radius: 0;
+}
+body.home .es-search__wrapper.es-search__wrapper--horizontal form .es-search__buttons {
+	margin-top: 14px;
+	float: right!important;
+}
+body.home .es-search__wrapper.es-search__wrapper--horizontal form .es-search__buttons .es-button__wrap .es-button-gray {
+    padding: 14px 0;
+}
+body .es-search__wrapper .es-search__field .es-field__label label {
+	color: #000!important;
+}
+.es-search__wrapper.es-search__wrapper--horizontal  {
+	margin: 0 auto!important;
+	padding-left: 15px!important;
+}
+
+/*** Carousel ***/
+.carousel .elementor-column-wrap,
+.carousel .elementor-column-wrap .e-swiper-container {
+	margin: 0 auto!important;
+}
+
+/*** Search Listing ***/
+.es-search__wrapper form {
+	display: inline-block!important;
+	width: 100%;
+}
+body.home .es-search__wrapper.es-search__wrapper--horizontal form .es-search__buttons,
+body.home .es-search__wrapper.es-search__wrapper--horizontal form .es-search__field {
+	float: left;
+	width: 32%!important;
+}
+body.home .es-search__wrapper.es-search__wrapper--horizontal form .es-search__field--es_category {
+	margin-left: 10px;
+}
+body.home .es-search__wrapper .es-search__field .es-field__wrap .select2 .select2-search__field {
+	height: 46px;
+}
+body.home .es-search__wrapper .es-search__field .es-field__label {
+	display: none;
+}
+body.home .es-search__wrapper .select2.select2-container {
+	margin-top: 6px!important;
+}
+body.home .es-search__wrapper .select2-search__field {
+	font-size: 15px;
+    color: #000;
+    height: 44px;
+}
+body.home .es-search__wrapper.es-search__wrapper--horizontal form .es-search__buttons .es-button__wrap input {
+    padding: 7px 0;
+}
+body.home .es-search__wrapper.es-search__wrapper--horizontal form .es-search__buttons .es-button__wrap:first-child {
+	display: none;
+}
+.es-single .es-price,
+.es-listing .es-property-inner .es-property-info h2 .es-price {
+    background: #3f8917!important;
+}
+.es-btn-orange-bordered, 
+.es-button-orange-corner, 
+.js-es-request-form-show,
+body.home .es-search__wrapper.es-search__wrapper--horizontal form .es-search__buttons .es-button__wrap .es-button-gray:hover,
+body .es-search__wrapper.es-search__wrapper--horizontal form .es-search__buttons .es-button__wrap .es-button-gray:hover {
+    background: #E6F5D0!important;
+}
+
+/*** Detail Product ***/
+body:not(.search-results) article:not(.type-page) .entry-content {
+	width: 100%!important;
+    margin: 0!important;
+}
+
+#es_search_widget-2 .widget-title {
+	font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
